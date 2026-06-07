@@ -1,4 +1,4 @@
-# Plan Deber RabbitMQ
+#  Deber RabbitMQ
 
 **Materia:** ISWZ2202 - Diseño y Arquitectura de Software  
 **Caso:** Gestor de Alertas de Seguridad SOC  
@@ -6,17 +6,17 @@
 
 ---
 
-## Checklist
+## pasos
 
-- [x] Paso 1: Crear repositorio público y estructura base.
-- [x] Paso 2: Levantar RabbitMQ con Docker.
-- [x] Paso 3: Crear exchanges, colas y bindings.
-- [x] Paso 4: Implementar productor de alertas.
-- [x] Paso 5: Implementar dos consumidores.
-- [x] Paso 6: Ejecutar pruebas del flujo completo.
-- [x] Paso 7: Tomar capturas de RabbitMQ Management.
-- [x] Paso 8: Completar documento final con evidencias.
-- [ ] Paso 9: Preparar demo en clase.
+ Crear repositorio público y estructura base.
+ Levantar RabbitMQ con Docker.
+ Crear exchanges, colas y bindings.
+ Implementar productor de alertas.
+Implementar dos consumidores.
+Ejecutar pruebas del flujo completo.
+ Tomar capturas de RabbitMQ Management.
+- Completar documento final con evidencias.
+ Preparar demo en clase.
 
 ---
 
@@ -50,7 +50,7 @@ soc-rabbitmq-microservices/
 │       ├── Dockerfile
 │       └── requirements.txt
 │
-├── docs/
+├── guia/
 │   └── plan-tarea.md
 │
 ├── docker-compose.yml
@@ -139,7 +139,7 @@ docker compose down
 
 ---
 
-## Evidencias necesarias
+## Evidencias necesarias en el documento
 
 - Captura de Docker Compose ejecutándose.
 - Captura del panel principal de RabbitMQ.
