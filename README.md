@@ -8,7 +8,7 @@ Implementar un productor y dos consumidores de mensajes usando RabbitMQ, demostr
 ## Caso real elegido
 Gestor de Alertas de Seguridad SOC. Un productor simula eventos de seguridad de fuentes como firewall, EDR, IDS y autenticación. Los consumidores procesan alertas críticas y auditoría general.
 ## Estructura del repositorio
-soc-rabbitmq-microservices/
+soc-rabbit-services/
 │
 ├── alert-service/
 │   ├── alert_service.py
