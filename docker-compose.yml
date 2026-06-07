@@ -15,7 +15,7 @@ services:
       retries: 5
 
   producer:
-    build: ./producer
+    build: ./rabbit-services/producer
     depends_on:
       rabbitmq:
         condition: service_healthy
@@ -23,7 +23,7 @@ services:
       RABBITMQ_HOST: rabbitmq
 
   alert-service:
-    build: ./alert-service
+    build: ./rabbit-services/alert-service
     depends_on:
       rabbitmq:
         condition: service_healthy
@@ -35,7 +35,7 @@ services:
       - alert_data:/app/data
 
   audit-service:
-    build: ./audit-service
+    build: ./rabbit-services/audit-service
     depends_on:
       rabbitmq:
         condition: service_healthy
