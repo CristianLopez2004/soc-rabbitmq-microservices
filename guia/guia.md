@@ -8,15 +8,15 @@
 
 ## pasos
 
- Crear repositorio público y estructura base.
- Levantar RabbitMQ con Docker.
- Crear exchanges, colas y bindings.
- Implementar productor de alertas.
-Implementar dos consumidores.
-Ejecutar pruebas del flujo completo.
- Tomar capturas de RabbitMQ Management.
+ -Crear repositorio público y estructura base.
+- Levantar RabbitMQ con Docker.
+- Crear exchanges, colas y bindings.
+- Implementar productor de alertas.
+-Implementar dos consumidores.
+-Ejecutar pruebas del flujo completo.
+- Tomar capturas de RabbitMQ Management.
 - Completar documento final con evidencias.
- Preparar demo en clase.
+- Preparar demo en clase.
 
 ---
 
@@ -51,7 +51,7 @@ soc-rabbitmq-microservices/
 │       └── requirements.txt
 │
 ├── guia/
-│   └── plan-tarea.md
+│   └── guia.md
 │
 ├── docker-compose.yml
 └── README.md
